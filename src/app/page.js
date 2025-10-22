@@ -100,9 +100,9 @@ export default function Home() {
           {/* Testimonial Card 1 */}
           <div className="p-6 bg-white rounded-xl shadow-md flex flex-col justify-center lg:w-1/3">
             <p className="text-gray-700 italic">
-              "As a student, these cards are a lifesaver. The recipes are so
-              easy to follow and they remind me of home. I can finally cook a
-              decent meal in my dorm!"
+              &quot;As a student, these cards are a lifesaver. The recipes are
+              so easy to follow and they remind me of home. I can finally cook a
+              decent meal in my dorm!&quot;
             </p>
             <div className="flex items-center mt-4">
               <div className="bg-red-400 text-white w-10 h-10 flex items-center justify-center rounded-full text-lg font-bold mr-4">
@@ -117,9 +117,10 @@ export default function Home() {
           {/* Testimonial Card 2 */}
           <div className="p-6 bg-white rounded-xl shadow-md flex flex-col justify-center lg:w-1/3">
             <p className="text-gray-700 italic">
-              "Kusina Kards has made meal prep so much easier for my family. The
-              printable cards are great for my kids! On the weekends, my kids
-              love picking what we're going to make."
+              &quot;Kusina Kards has made meal prep so much easier for my
+              family. The printable cards are great for my kids! On the
+              weekends, my kids love picking what we&apos;re going to
+              make.&quot;
             </p>
             <div className="flex items-center mt-4">
               <div className="bg-blue-400 text-white w-10 h-10 flex items-center justify-center rounded-full text-lg font-bold mr-4">
@@ -134,9 +135,9 @@ export default function Home() {
           {/* Testimonial Card 3 */}
           <div className="p-6 bg-white rounded-xl shadow-md flex flex-col justify-center lg:w-1/3">
             <p className="text-gray-700 italic">
-              "I've always wanted to try cooking Filipino food. Your site made
-              it so easy and approachable. The adobo recipe was a huge hit at my
-              last dinner party!"
+              &quot;I&apos;ve always wanted to try cooking Filipino food. Your
+              site made it so easy and approachable. The adobo recipe was a huge
+              hit at my last dinner party!&quot;
             </p>
             <div className="flex items-center mt-4">
               <div className="bg-green-400 text-white w-10 h-10 flex items-center justify-center rounded-full text-lg font-bold mr-4">

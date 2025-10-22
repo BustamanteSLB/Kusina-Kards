@@ -45,7 +45,7 @@ const recipes = [
     name: "Chicken Ginger Soup",
     image: "/chicken_ginger_soup_image.png",
     description:
-      'Also known as "Tinolang Manok". It is a simple yet flavorful Filipino chicken soup made with ginger, garlic, onions, fish sauce, and chili leaves or malunggay leaves.',
+      &apos;Also known as &quot;Tinolang Manok&quot;. It is a simple yet flavorful Filipino chicken soup made with ginger, garlic, onions, fish sauce, and chili leaves or malunggay leaves.&apos;,
     isFree: false,
     price: 100,
   },
