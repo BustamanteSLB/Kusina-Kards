@@ -44,8 +44,7 @@ const recipes = [
   {
     name: "Chicken Ginger Soup",
     image: "/chicken_ginger_soup_image.png",
-    description:
-      &apos;Also known as &quot;Tinolang Manok&quot;. It is a simple yet flavorful Filipino chicken soup made with ginger, garlic, onions, fish sauce, and chili leaves or malunggay leaves.&apos;,
+    description: `Also known as "Tinolang Manok". It is a simple yet flavorful Filipino chicken soup made with ginger, garlic, onions, fish sauce, and chili leaves or malunggay leaves.`,
     isFree: false,
     price: 100,
   },
@@ -132,7 +131,9 @@ const RecipeCard = ({ recipe }) => (
           <button
             onClick={() => {
               console.log(`Purchased ${recipe.name} for ₱${recipe.price}!`);
-              window.alert(`You purchased our ${recipe.name} recipe for ₱${recipe.price}! Thank you for your support!`);
+              window.alert(
+                `You purchased our ${recipe.name} recipe for ₱${recipe.price}! Thank you for your support!`
+              );
             }}
             className="w-full bg-[#EF4444] text-white px-4 py-2 rounded-lg text-sm font-semibold flex items-center justify-center"
           >
